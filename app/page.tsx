@@ -7,13 +7,14 @@ import { Link } from "lucide-react";
 export default function Home() {
     return (
     <div className="flex h-screen max-h-screen">
+      {/* A fazer: Verificacao OTP - SMS - PasskeyModal */}
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image
             src="/assets/icons/logo-full.svg"
             height={1000}
             width={1000}
-            alt="patient"
+            alt="paciente"
             className="mb-12 h-10 w-fit"
           />
 
@@ -21,7 +22,7 @@ export default function Home() {
 
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2024 CarePluse
+              © 2025 Sistema de Gestao Clinica Inteligente
             </p>
             <Link href="/?admin=true" className="text-green-500">
               Admin
@@ -40,4 +41,4 @@ export default function Home() {
     </div>
   );
 };
-}
+
